@@ -33,6 +33,33 @@ This tool does **not** create wallets, store funds, connect to wallets, sign tra
 
 Never enter a seed phrase, private key, password or recovery phrase into this or any other public tool.
 
+### Windows portable download
+
+Download the latest Windows portable ZIP archive from the **Releases** section:
+
+`MolinaCryptoWalletSafetyCheck-windows-x86_64-v0.4.zip`
+
+After downloading:
+
+1. Extract the ZIP archive.
+2. Open the extracted folder.
+3. Double click:
+
+`MolinaCryptoWalletSafetyCheck.exe`
+
+No installation is required.
+
+### Windows security warning
+
+On some Windows systems, Microsoft Defender SmartScreen may display a warning because the executable is unsigned and not widely downloaded yet.
+
+If you trust the source and downloaded the file from the official GitHub release page, you can start it by clicking:
+
+1. **More info**
+2. **Run anyway**
+
+This warning does not necessarily mean that the program is malicious. It usually appears for new or unsigned applications. Users should always download the file only from the official repository/release page and verify that the project source code is available.
+
 ### Linux portable download
 
 Download the latest Linux portable archive from the **Releases** section:
@@ -116,6 +143,33 @@ The score is not a guarantee of safety and must not be interpreted as financial,
 Questo tool **non** crea wallet, non custodisce fondi, non collega wallet, non firma transazioni, non gestisce private key e non chiede seed phrase.
 
 Non inserire mai seed phrase, private key, password o recovery phrase in questo o in qualsiasi altro tool pubblico.
+
+### Download Windows portable
+
+Scaricare l’archivio ZIP Windows portable più recente dalla sezione **Releases**:
+
+`MolinaCryptoWalletSafetyCheck-windows-x86_64-v0.4.zip`
+
+Dopo il download:
+
+1. Estrarre l’archivio ZIP.
+2. Aprire la cartella estratta.
+3. Fare doppio click su:
+
+`MolinaCryptoWalletSafetyCheck.exe`
+
+Non è richiesta installazione.
+
+### Avviso di sicurezza Windows
+
+Su alcuni sistemi Windows, Microsoft Defender SmartScreen potrebbe mostrare un avviso perché l’eseguibile non è firmato digitalmente e non è ancora molto scaricato.
+
+Se ti fidi della fonte e hai scaricato il file dalla pagina ufficiale delle release GitHub, puoi avviarlo cliccando:
+
+1. **Ulteriori informazioni**
+2. **Esegui comunque**
+
+Questo avviso non significa necessariamente che il programma sia malevolo. Spesso compare per applicazioni nuove o non firmate. È comunque consigliato scaricare il file solo dal repository/release ufficiale e verificare che il codice sorgente del progetto sia disponibile.
 
 ### Download Linux portable
 
