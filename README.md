@@ -68,85 +68,80 @@ Download the latest Linux portable archive from the **Releases** section:
 
 After downloading and extracting the archive:
 
-    cd MolinaCryptoWalletSafetyCheck-linux-x86_64
-    chmod +x avvia.sh
-    ./avvia.sh
+```bash
+cd MolinaCryptoWalletSafetyCheck-linux-x86_64
+chmod +x avvia.sh
+./avvia.sh
+```
 
-On some Linux file managers, you can also double click `avvia.sh` and choose **Run**.
+On some Linux file managers, you can also double click avvia.sh and choose Run.
 
-### Run from source
+Run from source
 
-Requirements:
+### Requirements:
 
-- Python 3
-- Tkinter
-- Internet connection
+Python 3
+Tkinter
+Internet connection
 
 On Debian/Ubuntu/Linux Mint systems, Tkinter can usually be installed with:
 
-    sudo apt install python3-tk
+sudo apt install python3-tk
 
 Run:
 
-    python3 MolinaCryptoWalletSafetyCheck.py
-
-### Data sources and external resources
+`python3 MolinaCryptoWalletSafetyCheck.py`
+Data sources and external resources
 
 The application uses public data and public web resources, including:
 
-- mempool.space
-- Etherscan
-- Revoke.cash
-- BaseScan
-- PolygonScan
-- Arbiscan
-- Optimism Explorer
-
-### Wallet Hygiene Score
+mempool.space
+Etherscan
+Revoke.cash
+BaseScan
+PolygonScan
+Arbiscan
+Optimism Explorer
+Wallet Hygiene Score
 
 The Wallet Hygiene Score is an informational indicator based on public data and basic safety heuristics.
 
 For Bitcoin addresses, it considers elements such as:
 
-- address reuse
-- confirmed balance
-- unconfirmed mempool activity
-- current Bitcoin network fees
+address reuse
+confirmed balance
+unconfirmed mempool activity
+current Bitcoin network fees
 
 For Ethereum/EVM addresses, the current version provides an educational safety score and directs the user to public explorers and approval-checking tools.
 
 The score is not a guarantee of safety and must not be interpreted as financial, legal, tax or cybersecurity advice.
 
----
-
 ## Italiano
+Funzioni principali
+Controllo di indirizzi pubblici Bitcoin tramite API pubbliche mempool.space
+Saldo BTC confermato, saldo non confermato/mempool, totale ricevuto/speso e numero transazioni
+Transazioni Bitcoin recenti
+Snapshot rete Bitcoin e fee consigliate
+Wallet Hygiene Score
+Riconoscimento formato indirizzi Ethereum/EVM
+Link utili a Etherscan, Revoke.cash, BaseScan, PolygonScan, Arbiscan e Optimism explorer
+Checklist sicurezza wallet
+Esportazione report TXT
+Interfaccia Italiano / English
+Nessuna custodia wallet
+Nessun inserimento seed phrase
+Nessun inserimento private key
+Nessuna firma transazioni
+Nota importante di sicurezza
 
-### Funzioni principali
-
-- Controllo di indirizzi pubblici Bitcoin tramite API pubbliche mempool.space
-- Saldo BTC confermato, saldo non confermato/mempool, totale ricevuto/speso e numero transazioni
-- Transazioni Bitcoin recenti
-- Snapshot rete Bitcoin e fee consigliate
-- Wallet Hygiene Score
-- Riconoscimento formato indirizzi Ethereum/EVM
-- Link utili a Etherscan, Revoke.cash, BaseScan, PolygonScan, Arbiscan e Optimism explorer
-- Checklist sicurezza wallet
-- Esportazione report TXT
-- Interfaccia Italiano / English
-- Nessuna custodia wallet
-- Nessun inserimento seed phrase
-- Nessun inserimento private key
-- Nessuna firma transazioni
-
-### Nota importante di sicurezza
-
-Questo tool **non** crea wallet, non custodisce fondi, non collega wallet, non firma transazioni, non gestisce private key e non chiede seed phrase.
+Questo tool non crea wallet, non custodisce fondi, non collega wallet, non firma transazioni, non gestisce private key e non chiede seed phrase.
 
 Non inserire mai seed phrase, private key, password o recovery phrase in questo o in qualsiasi altro tool pubblico.
 
 ### Download Windows portable
 
-Scaricare l’archivio ZIP Windows portable più recente dalla sezione **Releases**:
+Scaricare l’archivio ZIP Windows portable più recente dalla sezione Releases:
 
 `MolinaCryptoWalletSafetyCheck-windows-x86_64-v0.4.zip`
 
@@ -166,71 +161,69 @@ Su alcuni sistemi Windows, Microsoft Defender SmartScreen potrebbe mostrare un a
 
 Se ti fidi della fonte e hai scaricato il file dalla pagina ufficiale delle release GitHub, puoi avviarlo cliccando:
 
-1. **Ulteriori informazioni**
-2. **Esegui comunque**
+### Ulteriori informazioni
+Esegui comunque
 
 Questo avviso non significa necessariamente che il programma sia malevolo. Spesso compare per applicazioni nuove o non firmate. È comunque consigliato scaricare il file solo dal repository/release ufficiale e verificare che il codice sorgente del progetto sia disponibile.
 
-### Download Linux portable
+## Download Linux portable
 
-Scaricare l’archivio Linux portable più recente dalla sezione **Releases**:
+Scaricare l’archivio Linux portable più recente dalla sezione Releases:
 
 `MolinaCryptoWalletSafetyCheck-linux-x86_64-v0.4.tar.gz`
 
 Dopo aver scaricato ed estratto l’archivio:
 
-    cd MolinaCryptoWalletSafetyCheck-linux-x86_64
-    chmod +x avvia.sh
-    ./avvia.sh
+```Bash
+cd MolinaCryptoWalletSafetyCheck-linux-x86_64
+chmod +x avvia.sh
+./avvia.sh
+```
 
-Su alcuni file manager Linux è possibile fare doppio click su `avvia.sh` e scegliere **Esegui**.
+Su alcuni file manager Linux è possibile fare doppio click su avvia.sh e scegliere Esegui.
 
 ### Avvio da sorgente
 
 Requisiti:
 
-- Python 3
-- Tkinter
-- connessione Internet
+Python 3
+Tkinter
+connessione Internet
 
 Su Debian/Ubuntu/Linux Mint, Tkinter può normalmente essere installato con:
 
-    sudo apt install python3-tk
+sudo apt install python3-tk
 
 Avvio:
 
-    python3 MolinaCryptoWalletSafetyCheck.py
-
-### Fonti dati e risorse esterne
+python3 MolinaCryptoWalletSafetyCheck.py
+Fonti dati e risorse esterne
 
 Il programma usa dati pubblici e risorse web pubbliche, tra cui:
 
-- mempool.space
-- Etherscan
-- Revoke.cash
-- BaseScan
-- PolygonScan
-- Arbiscan
-- Optimism Explorer
-
-### Wallet Hygiene Score
+mempool.space
+Etherscan
+Revoke.cash
+BaseScan
+PolygonScan
+Arbiscan
+Optimism Explorer
+Wallet Hygiene Score
 
 Il Wallet Hygiene Score è un indicatore informativo basato su dati pubblici e semplici criteri di igiene/sicurezza.
 
 Per gli indirizzi Bitcoin considera elementi come:
 
-- riutilizzo dell’indirizzo
-- saldo confermato
-- attività non confermata in mempool
-- fee correnti della rete Bitcoin
+riutilizzo dell’indirizzo
+saldo confermato
+attività non confermata in mempool
+fee correnti della rete Bitcoin
 
 Per gli indirizzi Ethereum/EVM, nella versione attuale fornisce uno score educativo e indirizza l’utente verso explorer pubblici e strumenti di controllo approvals.
 
 Lo score non è una garanzia di sicurezza e non deve essere interpretato come consulenza finanziaria, legale, fiscale o professionale di cybersecurity.
 
----
-
-## Disclaimer
+### Disclaimer
 
 The information displayed by this tool is for educational and informational purposes only.
 
@@ -240,17 +233,13 @@ Le informazioni mostrate da questo tool hanno finalità esclusivamente educative
 
 Il software non fornisce consulenza finanziaria, di investimento, fiscale, legale o professionale di cybersecurity. L’utente resta responsabile delle proprie decisioni e dovrebbe verificare le informazioni critiche tramite fonti ufficiali e professionisti qualificati quando necessario.
 
----
+### Author / Autore
 
-## Author / Autore
-
-© 2026 Paolo Molina  
+© 2026 Paolo Molina
 Website / Sito: https://www.molinacrypto.eu
 
----
+License / Licenza
 
-## License / Licenza
+Distributed under the MIT License. See LICENSE.
 
-Distributed under the MIT License. See `LICENSE`.
-
-Distribuito con licenza MIT. Vedi file `LICENSE`.
+Distribuito con licenza MIT. Vedi file LICENSE.
