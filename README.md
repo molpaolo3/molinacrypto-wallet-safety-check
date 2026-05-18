@@ -3,7 +3,7 @@
 This project has evolved into MolinaCrypto Web3 Shield.
 
 New repository:
-https://github.com/TUO-USERNAME/molinacrypto-web3-shield
+https://github.com/molpaolo3/molinacrypto-web3-shield
 
 MolinaCrypto Wallet Safety Check was the first experimental version focused on public wallet/address checks. The new Web3 Shield project expands the concept to wallet checks, suspicious Web3 links, EVM smart contracts and signature/approval risk checks.
 
